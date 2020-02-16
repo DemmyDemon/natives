@@ -8,7 +8,7 @@ apiset: client
 void MUMBLE_SET_VOLUME_OVERRIDE(Player player, float volume);
 ```
 
-Overrides the output volume for a particular player on Mumble. This will also bypass 3D audio and distance calculations.
+Overrides the output volume for a particular player on Mumble. This will also bypass 3D audio and distance calculations. Set to a negative value to remove the override.
 
 ## Parameters
 * **player**: A game player index.
